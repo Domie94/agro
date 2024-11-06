@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: react-app-config
 data:
-  REACT_APP_API_URL: "https://api.hometsd.me"
+  REACT_APP_API_URL: "https://api-001.hometsd.me"
