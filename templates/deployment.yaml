@@ -21,4 +21,4 @@ spec:
           ports:
             - containerPort: 80
       imagePullSecrets:
-        - name: {{ .Values.imagePullSecrets[0].name }}
+        - name: {{ .Values.imagePullSecrets | first }}
